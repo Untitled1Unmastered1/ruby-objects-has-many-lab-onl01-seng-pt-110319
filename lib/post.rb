@@ -30,3 +30,4 @@ class Post
       binding.pry 
   end 
 end 
+end 
