@@ -21,5 +21,6 @@ class Post
     if self.author.name == nil 
       nil 
     else return self.author.name 
-  end 
+   end 
+ end 
 end 
