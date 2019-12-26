@@ -1,3 +1,4 @@
+require 'pry'
 class Post 
   attr_accessor :author, :title 
   
@@ -17,6 +18,7 @@ class Post
   end 
   
   def author_name
-    self.author.name ? self.author.name : 
+    self.author.name
+    binding.pry 
   end 
 end 
