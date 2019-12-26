@@ -5,8 +5,8 @@ class Author
     @name = name 
   end 
   
-  def add_post_by_name(name,genre)
-    post = Post.new(name,genre)
+  def add_post_by_name(name)
+    post = Post.new(name)
     add_post(post)
   end 
   
