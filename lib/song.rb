@@ -20,4 +20,8 @@ class Song
   def artist_name 
     self.artist.name 
   end 
+  
+  def some_song.artist_name 
+    song.artist_name
+  end 
 end 
