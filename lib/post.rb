@@ -19,6 +19,9 @@ class Post
   
   def author_name
     if self.author.name 
-      return 
+      return self.author.name
+    else 
+      return nil 
   end 
+end 
 end 
