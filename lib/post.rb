@@ -1,12 +1,20 @@
 require 'pry'
 class Post 
-  attr_accessor :author, :title 
+  attr_accessor :title 
   
   @@all = []
   
   def initialize(title)
     @title = title 
     save 
+  end 
+  
+  def author=(author)
+    @author = author
+  end 
+  
+  def author 
+    @author
   end 
   
   def save 
